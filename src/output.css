@@ -18,6 +18,8 @@
     --container-2xs: 18rem;
     --container-2xl: 42rem;
     --container-7xl: 80rem;
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
@@ -203,6 +205,9 @@
   .flex {
     display: flex;
   }
+  .h-\[300px\] {
+    height: 300px;
+  }
   .w-2xl {
     width: var(--container-2xl);
   }
@@ -215,11 +220,17 @@
   .w-\[0px\] {
     width: 0px;
   }
+  .w-\[100\%\] {
+    width: 100%;
+  }
   .w-\[100px\] {
     width: 100px;
   }
   .w-\[120px\] {
     width: 120px;
+  }
+  .w-\[200px\] {
+    width: 200px;
   }
   .w-\[250px\] {
     width: 250px;
@@ -311,6 +322,9 @@
   .rounded-\[15px\] {
     border-radius: 15px;
   }
+  .bg-\[\#0B265A\] {
+    background-color: #0B265A;
+  }
   .bg-\[\#0E1734\] {
     background-color: #0E1734;
   }
@@ -329,6 +343,9 @@
   .p-\[15px\] {
     padding: 15px;
   }
+  .pt-\[50px\] {
+    padding-top: 50px;
+  }
   .text-center {
     text-align: center;
   }
@@ -343,6 +360,10 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
   }
   .font-black {
     --tw-font-weight: var(--font-weight-black);
