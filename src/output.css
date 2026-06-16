@@ -230,17 +230,26 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[0px\] {
+    gap: 0px;
+  }
   .gap-\[20px\] {
     gap: 20px;
   }
   .gap-\[25px\] {
     gap: 25px;
   }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
   .gap-\[35px\] {
     gap: 35px;
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
   }
   .rounded {
     border-radius: 0.25rem;
